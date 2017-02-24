@@ -82,10 +82,6 @@ body {
   padding: 4px;
 }
 
-.content h2 {
-  text-align: center;
-}
-
 .main {
   width: 100%;
 }
@@ -97,10 +93,6 @@ body {
 @media screen and (min-width: 500px) {
   .content {
     flex-wrap: nowrap;
-  }
-
-  .content h2 {
-    text-align: left;
   }
 
   .main {
@@ -157,6 +149,36 @@ body {
     width: 25%;
   }
 }
+
+/********************************************************************/
+
+.post-title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.post-meta {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.post-author, .post-date, .post-tags {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .post-author, .post-date, .post-tags {
+    text-align: left;
+  }
+
+  .post-title {
+    text-align: left;
+  }
+}
+
+/********************************************************************/
 
 .error {
   text-align: center;

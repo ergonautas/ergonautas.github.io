@@ -121,11 +121,15 @@ body {
 }
 
 .links {
+  margin-bottom: 4px;
+  padding-bottom: 4px;
   text-align: center;
   width: 100%;
 }
 
 .license {
+  margin-top: 4px;
+  padding-top: 4px;
   text-align: center;
   width: 100%;
 }
@@ -136,6 +140,8 @@ body {
   }
 
   .links {
+    margin-bottom: 0;
+    padding-bottom: 0;
     margin-right: 8px;
     padding-right: 8px;
     text-align: center;
@@ -143,6 +149,8 @@ body {
   }
 
   .license {
+    margin-top: 0;
+    padding-top: 0;
     margin-left: 8px;
     padding-left: 8px;
     text-align: center;

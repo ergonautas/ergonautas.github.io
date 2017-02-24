@@ -2,3 +2,7 @@ title: Ergonautas
 description: Programación funcional en español
 
 permalink: pretty
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap

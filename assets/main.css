@@ -33,6 +33,7 @@ body {
 }
 
 .title {
+  color: black;
   text-align: center;
   width: 100%;
 }
@@ -43,11 +44,13 @@ body {
 }
 
 .title p {
+  color: gray;
   margin-top: 0;
   padding-top: 0;
 }
 
 .logo {
+  color: gray;
   text-align: center;
   width: 100%;
 }
@@ -79,6 +82,10 @@ body {
   padding: 4px;
 }
 
+.content h2 {
+  text-align: center;
+}
+
 .main {
   width: 100%;
 }
@@ -90,6 +97,10 @@ body {
 @media screen and (min-width: 500px) {
   .content {
     flex-wrap: nowrap;
+  }
+
+  .content h2 {
+    text-align: left;
   }
 
   .main {

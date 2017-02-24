@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="{{ site.data.people["jpvillaisaza"].name }}">
+    <meta name="description" content="{{ site.description }}">
+
+    <title>{{ site.title }}</title>
+
+    {% include links.html %}
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <header class="header">
+        <h1>
+          <a href="/">
+            {{ site.title }}
+          </a>
+        </h1>
+      </header>
+
+      <div class="content">
+        <div class="main">
+          {{ content }}
+        </div>
+        <div class="sidebar">
+
+        </div>
+      </div>
+
+      <footer class="footer">
+
+      </footer>
+
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+
+</html>

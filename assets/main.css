@@ -161,12 +161,14 @@ body {
 /********************************************************************/
 
 .post-title {
+  color: black;
   margin-bottom: 0;
   padding-bottom: 0;
   text-align: center;
 }
 
 .post-meta {
+  color: darkslategray;
   margin-top: 0;
   padding-top: 0;
 }
